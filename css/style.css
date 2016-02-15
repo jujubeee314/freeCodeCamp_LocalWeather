@@ -1,0 +1,26 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.weatherbg {
+  height: 100%;
+  background-size: cover;
+}
+
+.weatherApp {
+  vertical-align: middle;
+  background-color: black;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  color: white;
+  padding: 10px;
+  opacity: 0.6;
+  border-radius: 25%;
+}
+
+h1, h3 {
+  vertical-align: middle;
+}
