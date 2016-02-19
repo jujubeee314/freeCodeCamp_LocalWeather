@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-  var lon = -74.1046149;
-  var lat = 40.708054;
+  var lon = lon || -74.1046149;
+  var lat = lat || 40.708054;
 
   if (navigator.geolocation) {
      navigator.geolocation.getCurrentPosition(function(position) {
